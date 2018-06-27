@@ -13,6 +13,7 @@
 		8A96F5A520E3B16800676D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A96F5A420E3B16800676D8D /* Assets.xcassets */; };
 		8A96F5A820E3B16800676D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A96F5A620E3B16800676D8D /* LaunchScreen.storyboard */; };
 		8A96F5AB20E3B16800676D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A96F5AA20E3B16800676D8D /* main.m */; };
+		8A96F5B320E3B1C200676D8D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A96F5B220E3B1C200676D8D /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8A96F5A720E3B16800676D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A96F5A920E3B16800676D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A96F5AA20E3B16800676D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A96F5B220E3B1C200676D8D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A96F5B320E3B1C200676D8D /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				8A96F59A20E3B16700676D8D /* CreatingPDF */,
 				8A96F59920E3B16700676D8D /* Products */,
+				8A96F5B120E3B1C100676D8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +73,14 @@
 				8A96F5AA20E3B16800676D8D /* main.m */,
 			);
 			path = CreatingPDF;
+			sourceTree = "<group>";
+		};
+		8A96F5B120E3B1C100676D8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A96F5B220E3B1C200676D8D /* CoreText.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

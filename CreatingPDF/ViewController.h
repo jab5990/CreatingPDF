@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreText/CoreText.h>
 
 @interface ViewController : UIViewController
+
+- (IBAction)createPDF:(id)sender;
+
+-(void)drawPageNbr:(int)pageNumber;
+-(CFRange*)updatePDFPage:(int)pageNumber setTextRange:(CFRange*)pageRange setFramesetter:(CTFramesetterRef*)framesetter;
 
 
 @end
